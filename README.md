@@ -10,11 +10,11 @@ Using <Object> can lead to Heap Pollution and ClassExceptionError. Does not give
 
 eg. public void Box<T>{} [in Box class]
 
-Compariing objects using equals(Object obj) and hashCode()
+Comparing objects using equals(Object obj) and hashCode()
 
 hashCode() returns a hash code value for the object
 
-Maps have unique keys but can have duplicate values
+Maps must have unique keys but can have duplicate values
 
 ## Decorator Pattern (Lesson 3)
 
@@ -28,5 +28,7 @@ Mainly used to send files over to another user to compile and run the java files
 
 ## Interface
 
+- keyword "**implements**"
 - use to show traits/attributes of an object/class.
 - Can have many methods but no implementations
+- A class that implements an interface, have to provide all the methods in the interface.
